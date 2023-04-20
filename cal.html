@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>calculator</title>
+	<style type="text/css">
+
+
+*{margin: 0px;}
+
+		.wrap{
+	width:100%;             
+	margin:auto;
+	background:#ddd;
+}
+
+        .header{ height:100px;
+                 background:ghostwhite;
+                 padding: 12px;
+                text-align: right;}
+
+                .header  img{text-align: left;}
+
+          .nav{height: auto;
+               background: #999;
+               padding: 12px;
+               text-align: right;}
+
+               .nav a { margin-left: 30px;
+               text-decoration: none; }
+        
+                  
+                   
+           .footer {height: auto;
+           	      width: 100%;
+           	        padding: 12px;
+           	        text-align: center;
+                     background-color:#566;
+                     float: left; }
+
+
+            /* .sideleft{ width: 20%;
+                        float: left; 
+                         height: 700px;
+                         background-color: lightcyan;
+                         font-style:verdana;
+                         font-size: 22px;
+                         text-align: center; 
+                          color: black;
+                           position: relative;
+
+                           }
+
+                   .child{ position: absolute;
+                           top: 10%;
+                           left: 20%;
+                             }
+*/
+
+                   
+             /*  .gallery{ 
+               	  
+                        float: left;
+                        background-color: white;
+                         margin: 4px;
+                         border: 1px solid #913;}
+
+                         .gallery1{width: 60%; 
+                         	height: 700px;
+                         	float: left;
+                         	text-align: center;}
+                 
+                                 
+                   .desc{padding: 5px;
+                         text-align: center;}           */  
+
+                .right{width: 20%;
+                       float: left;
+                       height: 700px; 
+                        background-color: #346;
+                      
+                    }    
+                  
+       /*           
+		img{margin: 2px;} */
+		.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  margin: 10px;
+  background-color: #120;
+  width: 50%;
+
+}
+.flex{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  margin: 8px;
+  border-radius: 20px ;
+}
+.item1{grid-column-start:1;
+       grid-column-end:5 ;
+        }
+  
+	</style>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="header"> <img src="https://img.paisawapas.com/ovz3vew9pw/2021/07/01113837/Ajio.jpg" width="200px"height="100px" align="left"><b>signin/joinin</b></div>
+		<div class="nav"><a href="menu.html"><i class="fa-solid fa-house-user"></i></a><a href="flexmen.html">Men wear</a>
+		                 <a href="women.html">Women wear</a>
+		                   <a href="kids.html">kids</a>
+		                   <a href="hk.html">Home&kitchen</a>
+		                   <a href="cal.html">calculator</a>
+		               </div>
+	<div class="grid">
+		<div class="flex item1"></div>
+		
+
+
+		<div class="flex item01" style="color: ghostwhite;"></div>
+		<div class="flex item02">(</div>
+		<div class="flex item03">)</div>
+		<div class="flex item04"><i class="fa-solid fa-delete-left"></i></div>
+		<div class="flex item5">9</div>
+		<div class="flex item6">8</div>
+		<div class="flex item7">7</div>
+		<div class="flex item8">*</div>
+		<div class="flex item9">6</div>
+		<div class="flex item10">5</div>
+		<div class="flex item11">4</div>
+		<div class="flex item12">/</div>
+		<div class="flex item14">3</div>
+		<div class="flex item15">2</div>
+		<div class="flex item16">1</div>
+		<div class="flex item17">-</div>
+		<div class="flex item18">0</div>
+		<div class="flex item19">.</div>
+		<div class="flex item20">=</div>
+		<div class="flex item21">+</div>
+
+
+	</div>
+	<div class="footer">footer</div> 
+		
+
+</body>
+</html>
